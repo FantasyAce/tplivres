@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="tpjs.css">
+    <title>TPJS</title>
+</head>
+<body>
+    <div class="container-fluid">
+            <center>
+                <img src="./img/librairie.png" alt="Librairie" class="image">
+            </center>
+        <div id="add-book">
+            <fieldset class="col-md-8" id="field">
+                <form action="#" method="GET" id="ab" name="ab" ></form>
+                <input form="ab" type="text" name="title" placeholder="Titre" class="col-md-4">
+                <input form="ab" type="text" name="author" placeholder="Auteur" class="col-md-4">
+                <input form="ab" type="checkbox" name="dispo" id="dispo" >
+                
+                <button form="ab" type="submit">Enregistrer</button>
+                
+            </fieldset>
+        </div>
+
+        <article id="booklist">
+
+            <h1 class="col-md-12">LISTE DE LIVRE</h1>
+            <h2 class="text-center col-12">Librairie</h2>
+            <div class="book">
+
+                <section id="tableau" class="row">
+                    
+                    <h3 id="title" class=" col-4"> </h3>
+                    <h3 id="author" class="col-4"></h3>
+                    <h3 id="dispo" class="col-4"></h3>
+                    
+                    
+                </section>
+            </div>
+        </article>
+    </div>
+    <script src="tpjs.js"></script>
+</body>
+</html>
